@@ -10,9 +10,4 @@ function sayHello() {
 // call the function
 sayHello();
 
-console.log('Test')
-
-// Show the text on the console
-console.log(sayHello())
-
 

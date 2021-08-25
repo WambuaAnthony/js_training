@@ -3,16 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>My Application</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <main>
-      <div>Application Page</div>
-      <div id="hello-world" class="text">Some Text</div>
-      <div id="hello-world-1" class="text">Some Text</div>
+  <nav>
+      <div class="container mx-auto h-12 bg-gray-400"></div>
+  </nav>
+  <main class="container mx-auto">
+      <div id="maths-1" class="text">0</div>
+      <div id="maths-2" class="text">0</div>
+
+      <div class="mt-8">
+          <div class="w-full border-b text-2xl">Conditionals</div>
+          <div class="flex flex-row">
+              <div class="w-1/3">
+                  <div class="w-full text-xl">Months Of The Year</div>
+                  <div>
+                      <div id="january">
+                          <span>January</span>
+                          <span id="january-weather" class="weather"></span>
+                      </div>
+                      <div id="february">
+                          <span>February</span>
+                          <span id="february-weather" class="weather"></span>
+                      </div>
+                      <div>March</div>
+                      <div>April</div>
+                      <div id="may">
+                          <span>May</span>
+                          <span id="may-weather" class="weather"></span>
+                      </div>
+                      <div>June</div>
+                      <div>July</div>
+                      <div>August</div>
+                      <div>September</div>
+                      <div>October</div>
+                      <div>November</div>
+                      <div>December</div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </main>
 
   <script type="text/javascript" src="application.js"></script>
+  <script type="text/javascript" src="if.js"></script>
 </body>
 
 </html>

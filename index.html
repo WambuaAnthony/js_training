@@ -19,6 +19,13 @@
           <div class="flex flex-row">
               <div class="w-1/3">
                   <div class="w-full text-xl">Months Of The Year</div>
+                  <div class="my-3">
+                      <select name="month" id="selectedMonth">
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                      </select>
+                  </div>
                   <div>
                       <div id="january">
                           <span>January</span>
@@ -28,8 +35,14 @@
                           <span>February</span>
                           <span id="february-weather" class="weather"></span>
                       </div>
-                      <div>March</div>
-                      <div>April</div>
+                      <div id="march">
+                          <span>March</span>
+                          <span id="march-weather" class="weather"></span>
+                      </div>
+                      <div id="april">
+                          <span>April</span>
+                          <span id="april-weather" class="weather"></span>
+                      </div>
                       <div id="may">
                           <span>May</span>
                           <span id="may-weather" class="weather"></span>
